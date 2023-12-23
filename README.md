@@ -26,5 +26,7 @@ En este proceso se hizo en un jupyternotebook se eliminaron los duplicados, se h
 Luego desarrolle las funciones de la api, y los modelos de aprendizaje automatico, este ultimo usando la similitud del conseno. En la mayoria de las funciones utilice el metodo .apply() en las tablas para optimizar el rendimiento del programa y tambien para hacer el codigo mas corto y sencillo. Al final del EDA antes de guardar los datos tome la descision de eliminar el 85% de los registros de forma aleatoria para que render me permitiera hacer el deploy, de todas formas en el archivo fuente se ecuentra un comentario en cada funcion de que input se debe utilizar para que devuelva una respuesta completa.
 
 [Link del repositorio de render]("https://github.com/samuelchacon00/deploy_pt05")
+
 [Link del enunciado](https://github.com/soyHenry/PI_ML_OPS/tree/PT)
+
 [link del deploy en render](https://api-steam-games-fc4s.onrender.com/docs#/default)
