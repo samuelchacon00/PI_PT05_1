@@ -11,7 +11,18 @@ los datos estan anidados en las 3 tablas de manera que en ciertos campos hay una
 <p align="center">
 <img src="https://github.com/samuelchacon00/PI_PT05_1/blob/d1123f489f5fb086950b51c4a2f05bc4bdd05be6/src/arbol.png"  height=300></p>
 
-una vez desanidados, se ha hecho EDA y un ETL de cada tabla con respecto a sus campos, que estaba bien o mal, si
-habian campos que normalizar o eliminar dependiendo de era necesario para lo que se pide en el proyecto y las funciones de la api. Se realizaron algunos graficos para observar algunas curiosidades de las tablas dando lugar a una mejor comprension a los datos dados.
+En el directorio datasets_default estan los datasets descargados y descomprimidos manualmente para desanidarlos.
+Una vez desanidados se guardan en csv en datasets para que se lleve a cabo el EDA y ETL de cada tabla.
+Dentro de deploy estan los archivos necesarios para hacer el deploy.
 
-Luego desarrolle las funciones de la api, y los modelos de aprnedisaje automatico este ultimo usando la similitud del conseno
+se crearon 3 archivos fuente distintos para desanidar las tablas, dos utilizan multiprocesamiento para que el proceso no tarde demasiado, si se va a ejecutar tener en cuenta que los programas llevan el CPU al 100%.
+
+## ETL - EDA
+
+En este proceso se hizo en un jupyternotebook se eliminaron los duplicados, se hizo limpienza y normalizacion de columnas, se eliminaron columnas dependiendo de que es lo necesario para lo que se pide en el proyecto y las funciones de la api. Se realizaron algunos graficos para observar algunas curiosidades de las tablas dando lugar a una mejor comprension a los datos dados y tomando todas las acciones con una justificacion.
+
+## Desarrolo de la API
+
+Luego desarrolle las funciones de la api, y los modelos de aprendizaje automatico, este ultimo usando la similitud del conseno. En la mayoria de las funciones utilice el metodo .apply() en las tablas para optimizar el rendimiento del programa y tambien para hacer el codigo mas corto y sencillo. Al final del EDA antes de guardar los datos tome la descision de eliminar el 85% de los registros de forma aleatoria para que render me permitiera hacer el deploy, de todas formas en el archivo fuente se ecuentra un comentario en cada funcion de que input se debe utilizar para que devuelva una respuesta completa.
+
+[Link del repositorio de render]("https://github.com/samuelchacon00/deploy_pt05.git")
