@@ -9,7 +9,7 @@ los datos estan anidados en las 3 tablas de manera que en ciertos campos hay una
 ## esquema de directorios
 
 <p align="center">
-<img src="C:\\Users\\leuma\\OneDrive\\Desktop\\HENRY\\PI_PT05\\parte 1\\imagenes\\arbol.png"  height=300></p>
+<img src="https://github.com/samuelchacon00/PI_PT05_1/blob/d1123f489f5fb086950b51c4a2f05bc4bdd05be6/src/arbol.png"  height=300></p>
 
 una vez desanidados, se ha hecho EDA y un ETL de cada tabla con respecto a sus campos, que estaba bien o mal, si
 habian campos que normalizar o eliminar dependiendo de era necesario para lo que se pide en el proyecto y las funciones de la api. Se realizaron algunos graficos para observar algunas curiosidades de las tablas dando lugar a una mejor comprension a los datos dados.
